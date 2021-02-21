@@ -1,0 +1,663 @@
+{
+	"rooms": 
+		[
+			{
+				"r": "create_actors",
+				"actor_data": 
+					[
+						{
+							"actor_id": "Door_1_Trigger",
+							"components": 
+								[
+									{
+										"type": "volume_trigger",
+										"volume_data": 
+											[
+												{
+													"collision_type": "box",
+													"center": 
+														[
+															6.31,
+															0.945,
+															-3.685
+														],
+													"extents": 
+														[
+															3.762175,
+															3,
+															4.36067343
+														],
+													"rotation": 
+														[
+															0,
+															0,
+															0
+														]
+												}
+											],
+										"trigger_type": "local"
+									},
+									{
+										"type": "net_actor_node",
+										"inputs": 
+											[
+												{
+													"input_port": "door_1_open",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_1_open",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												},
+												{
+													"input_port": "door_1_close",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_1_close",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												}
+											],
+										"outputs": 
+											[
+												{
+													"output_port": "volume_trigger_enter_first",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_1_Trigger",
+																"input_port": "door_1_open"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												},
+												{
+													"output_port": "volume_trigger_exit_all",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_1_Trigger",
+																"input_port": "door_1_close"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												}
+											]
+									},
+									{
+										"type": "model",
+										"version": 1,
+										"game_asset_url": "sceneref://Room_0/Interactive_Items/Door_1_Trigger",
+										"edit_apartment_animation": "door_1_open",
+										"idle_animation": "door_1_close",
+										"idle_wrap_mode": "last_frame"
+									}
+								],
+							"actions": 
+								[
+									{
+										"a": "position",
+										"o": 
+											[
+												0,
+												0,
+												0
+											],
+										"uid": "local"
+									},
+									{
+										"a": "model_set_visible",
+										"uid": "local",
+										"p": 
+											{
+												"method": "Immediate",
+												"visible": true
+											}
+									}
+								]
+						},
+						{
+							"actor_id": "Door_Large_1_Trigger",
+							"components": 
+								[
+									{
+										"type": "volume_trigger",
+										"volume_data": 
+											[
+												{
+													"collision_type": "box",
+													"center": 
+														[
+															2.95,
+															0.945,
+															3.3
+														],
+													"extents": 
+														[
+															4,
+															2,
+															3
+														],
+													"rotation": 
+														[
+															0,
+															0,
+															0
+														]
+												}
+											],
+										"trigger_type": "local"
+									},
+									{
+										"type": "net_actor_node",
+										"inputs": 
+											[
+												{
+													"input_port": "door_large_1_open",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_large_1_open",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												},
+												{
+													"input_port": "door_large_1_close",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_large_1_close",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												}
+											],
+										"outputs": 
+											[
+												{
+													"output_port": "volume_trigger_enter_first",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_Large_1_Trigger",
+																"input_port": "door_large_1_open"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												},
+												{
+													"output_port": "volume_trigger_exit_all",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_Large_1_Trigger",
+																"input_port": "door_large_1_close"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												}
+											]
+									},
+									{
+										"type": "model",
+										"version": 1,
+										"game_asset_url": "sceneref://Room_0/Interactive_Items/Door_Large_1_Trigger",
+										"edit_apartment_animation": "door_large_1_open",
+										"idle_animation": "door_large_1_close",
+										"idle_wrap_mode": "last_frame"
+									}
+								],
+							"actions": 
+								[
+									{
+										"a": "position",
+										"o": 
+											[
+												0,
+												0,
+												0
+											],
+										"uid": "local"
+									},
+									{
+										"a": "model_set_visible",
+										"uid": "local",
+										"p": 
+											{
+												"method": "Immediate",
+												"visible": true
+											}
+									}
+								]
+						},
+						{
+							"actor_id": "Door_Large_2_Trigger",
+							"components": 
+								[
+									{
+										"type": "volume_trigger",
+										"volume_data": 
+											[
+												{
+													"collision_type": "box",
+													"center": 
+														[
+															2.94999981,
+															0.945,
+															-2.45
+														],
+													"extents": 
+														[
+															4,
+															2,
+															2.9
+														],
+													"rotation": 
+														[
+															0,
+															0,
+															0
+														]
+												}
+											],
+										"trigger_type": "local"
+									},
+									{
+										"type": "net_actor_node",
+										"inputs": 
+											[
+												{
+													"input_port": "door_large_2_open",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_large_2_open",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												},
+												{
+													"input_port": "door_large_2_close",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "door_large_2_close",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												}
+											],
+										"outputs": 
+											[
+												{
+													"output_port": "volume_trigger_enter_first",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_Large_2_Trigger",
+																"input_port": "door_large_2_open"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												},
+												{
+													"output_port": "volume_trigger_exit_all",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Door_Large_2_Trigger",
+																"input_port": "door_large_2_close"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												}
+											]
+									},
+									{
+										"type": "model",
+										"version": 1,
+										"game_asset_url": "sceneref://Room_0/Interactive_Items/Door_Large_2_Trigger",
+										"edit_apartment_animation": "door_large_2_open",
+										"idle_animation": "door_large_2_close",
+										"idle_wrap_mode": "last_frame"
+									}
+								],
+							"actions": 
+								[
+									{
+										"a": "position",
+										"o": 
+											[
+												0,
+												0,
+												0
+											],
+										"uid": "local"
+									},
+									{
+										"a": "model_set_visible",
+										"uid": "local",
+										"p": 
+											{
+												"method": "Immediate",
+												"visible": true
+											}
+									}
+								]
+						},
+						{
+							"actor_id": "Shower",
+							"components": 
+								[
+									{
+										"type": "volume_trigger",
+										"volume_data": 
+											[
+												{
+													"collision_type": "box",
+													"center": 
+														[
+															4.19346476,
+															1.34099269,
+															-9.495619
+														],
+													"extents": 
+														[
+															2.4060297,
+															2.73447561,
+															2.515074
+														],
+													"rotation": 
+														[
+															0,
+															0,
+															0
+														]
+												}
+											],
+										"trigger_type": "local"
+									},
+									{
+										"type": "net_actor_node",
+										"inputs": 
+											[
+												{
+													"input_port": "Shower_on",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "Shower_on",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												},
+												{
+													"input_port": "Shower_off",
+													"actions": 
+														[
+															{
+																"a": "model_animation",
+																"r": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"o": 
+																	[
+																		0,
+																		0,
+																		0
+																	],
+																"uid": "local",
+																"p": 
+																	{
+																		"name": "Shower_off",
+																		"wrap_mode": "once",
+																		"switch_method": "queue"
+																	}
+															}
+														]
+												}
+											],
+										"outputs": 
+											[
+												{
+													"output_port": "volume_trigger_enter_first",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Shower",
+																"input_port": "Shower_on"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												},
+												{
+													"output_port": "volume_trigger_exit_all",
+													"cooldown": 2,
+													"output_port_data": 
+														[
+															{
+																"type": "local_wiring",
+																"actor_id": "Shower",
+																"input_port": "Shower_off"
+															}
+														],
+													"restricted_types": 
+														[
+															"avakin",
+															"petkin"
+														]
+												}
+											]
+									},
+									{
+										"type": "model",
+										"version": 1,
+										"game_asset_url": "sceneref://Room_0/Interactive_Items/Shower",
+										"edit_apartment_animation": "Shower_on",
+										"idle_animation": "Shower_off",
+										"idle_wrap_mode": "last_frame"
+									}
+								],
+							"actions": 
+								[
+									{
+										"a": "position",
+										"o": 
+											[
+												0,
+												0,
+												0
+											],
+										"uid": "local"
+									},
+									{
+										"a": "model_set_visible",
+										"uid": "local",
+										"p": 
+											{
+												"method": "Immediate",
+												"visible": true
+											}
+									}
+								]
+						}
+					]
+			}
+		]
+}
