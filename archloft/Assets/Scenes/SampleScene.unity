@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -96,8 +96,10 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 99bb7fd6b65424d48ae6d6bf4d5cca94,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -117,6 +119,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -816,6 +820,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -840,6 +846,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5564530106739525258
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -854,6 +861,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -884,6 +893,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5564647659368864132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -898,6 +908,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -923,6 +935,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5564655438553941659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -937,6 +950,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -962,6 +977,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5565059854183658467
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -976,6 +992,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1016,6 +1034,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5565888714007135657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1030,6 +1049,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1065,6 +1086,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5565945738600091866
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1079,6 +1101,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1103,6 +1127,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5565962052443769726
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1117,6 +1142,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1141,6 +1168,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5566013776630272294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1155,6 +1183,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1180,6 +1210,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5566028014468281520
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1194,6 +1225,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1218,6 +1251,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &5566069310063267469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1232,6 +1266,8 @@ MeshRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1257,6 +1293,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &5576583992105023222
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,7 +1580,7 @@ GameObject:
   - component: {fileID: 5577001715728706412}
   - component: {fileID: 5553663586555607849}
   - component: {fileID: 5564647659368864132}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Large_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5583128724984547862}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1575,7 +1612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5576913280314903075}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,7 +1630,7 @@ GameObject:
   - component: {fileID: 5582885922885451149}
   - component: {fileID: 5557352200165077850}
   - component: {fileID: 5565962052443769726}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1627,7 +1664,7 @@ GameObject:
   - component: {fileID: 5576599083262604635}
   - component: {fileID: 5556339840999258510}
   - component: {fileID: 5564655438553941659}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576845137878153851}
   - component: {fileID: 5541340740631218384}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_1_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5582798464582854247}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Meshes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1678,7 +1715,7 @@ GameObject:
   - component: {fileID: 5576947060520252093}
   - component: {fileID: 5557305438073145205}
   - component: {fileID: 5566028014468281520}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Surf_return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5583283816596788955}
   - component: {fileID: 5498687795620123138}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Sliding_SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1750,7 @@ GameObject:
   - component: {fileID: 5582784303490612336}
   - component: {fileID: 5557250640507172386}
   - component: {fileID: 5566069310063267469}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Large_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1731,7 +1768,7 @@ GameObject:
   - component: {fileID: 5582792682592368346}
   - component: {fileID: 5739934513495271456}
   - component: {fileID: 5740219413208316397}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: SkyRays_Loop (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1748,7 +1785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576754503912823851}
   - component: {fileID: 5541347317905517593}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Large_2_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1764,7 +1801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5577050594222029787}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sea_foam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1782,7 +1819,7 @@ GameObject:
   - component: {fileID: 5576625924800799730}
   - component: {fileID: 5740517874918655597}
   - component: {fileID: 5741644586194864442}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Rain_WithSplash_Shuriken_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1799,7 +1836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576717000492013973}
   - component: {fileID: 5498338286753248851}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Sliding_SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1835,9 +1872,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1892b967e6c7136488bd749fcb77e3d3, type: 2}
 --- !u!1 &5579593148540508295
 GameObject:
@@ -1849,7 +1886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5583192208359493308}
   - component: {fileID: 5498428947491938487}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Sliding_SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1904,7 @@ GameObject:
   - component: {fileID: 5583042212216149254}
   - component: {fileID: 5740826678057811098}
   - component: {fileID: 5741929906766642245}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Steam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1922,7 @@ GameObject:
   - component: {fileID: 5576583992105023222}
   - component: {fileID: 5553620158676083803}
   - component: {fileID: 5565945738600091866}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Glows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1901,7 +1938,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5577070966327380262}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Interactive_Items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1918,7 +1955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576982004305597171}
   - component: {fileID: 5539438646057089072}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Archloft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1935,7 +1972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5583268267883853348}
   - component: {fileID: 5498726522890276650}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ambient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1971,9 +2008,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ea34b4e44849764478e160acd1f02fb9, type: 2}
 --- !u!1 &5579702303327330078
 GameObject:
@@ -1986,7 +2023,7 @@ GameObject:
   - component: {fileID: 5576592207912666725}
   - component: {fileID: 5556605202749720746}
   - component: {fileID: 5566013776630272294}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,7 +2041,7 @@ GameObject:
   - component: {fileID: 5576676513158200755}
   - component: {fileID: 5556536109225331205}
   - component: {fileID: 5564505331787852405}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sea_Surf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576915588055068504}
   - component: {fileID: 5539749128070972225}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Door_Large_1_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2054,7 +2091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5582982505767534213}
   - component: {fileID: 5498801690284826188}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ShowerAudio (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2071,7 +2108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5583033820777105566}
   - component: {fileID: 5539609043498174159}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Shower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2126,7 @@ GameObject:
   - component: {fileID: 5583330275572528911}
   - component: {fileID: 5553691119798094437}
   - component: {fileID: 5564530106739525258}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,7 +2329,7 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579432818049611252}
-  serializedVersion: 6
+  serializedVersion: 7
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
@@ -3514,6 +3551,62 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+  LifetimeByEmitterSpeedModule:
+    enabled: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -0.8
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.2
+          inSlope: -0.8
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Range: {x: 0, y: 1}
   ForceModule:
     enabled: 0
     x:
@@ -4152,19 +4245,20 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    serializedVersion: 3
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
-    plane1: {fileID: 0}
-    plane2: {fileID: 0}
-    plane3: {fileID: 0}
-    plane4: {fileID: 0}
-    plane5: {fileID: 0}
+    m_Planes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -4230,17 +4324,20 @@ ParticleSystem:
     interiorCollisions: 1
   TriggerModule:
     enabled: 0
-    collisionShape0: {fileID: 0}
-    collisionShape1: {fileID: 0}
-    collisionShape2: {fileID: 0}
-    collisionShape3: {fileID: 0}
-    collisionShape4: {fileID: 0}
-    collisionShape5: {fileID: 0}
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
     exit: 0
+    colliderQueryMode: 0
     radiusScale: 1
+    primitives:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -4762,6 +4859,8 @@ ParticleSystemRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4804,6 +4903,8 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 0
   m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
+  m_FreeformStretching: 0
+  m_RotateWithStretchDirection: 1
   m_VertexStreams: 0001030405
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
@@ -4817,7 +4918,7 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579534493304087435}
-  serializedVersion: 6
+  serializedVersion: 7
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
@@ -6075,6 +6176,62 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+  LifetimeByEmitterSpeedModule:
+    enabled: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -0.8
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.2
+          inSlope: -0.8
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Range: {x: 0, y: 1}
   ForceModule:
     enabled: 0
     x:
@@ -6749,19 +6906,20 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    serializedVersion: 3
+    serializedVersion: 4
     type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
-    plane1: {fileID: 0}
-    plane2: {fileID: 0}
-    plane3: {fileID: 0}
-    plane4: {fileID: 0}
-    plane5: {fileID: 0}
+    m_Planes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -6827,17 +6985,20 @@ ParticleSystem:
     interiorCollisions: 0
   TriggerModule:
     enabled: 0
-    collisionShape0: {fileID: 0}
-    collisionShape1: {fileID: 0}
-    collisionShape2: {fileID: 0}
-    collisionShape3: {fileID: 0}
-    collisionShape4: {fileID: 0}
-    collisionShape5: {fileID: 0}
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
     exit: 0
+    colliderQueryMode: 0
     radiusScale: 1
+    primitives:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -7351,7 +7512,7 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579599749639339438}
-  serializedVersion: 6
+  serializedVersion: 7
   lengthInSec: 7
   simulationSpeed: 1
   stopAction: 0
@@ -8573,6 +8734,62 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+  LifetimeByEmitterSpeedModule:
+    enabled: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -0.8
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.2
+          inSlope: -0.8
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Range: {x: 0, y: 1}
   ForceModule:
     enabled: 0
     x:
@@ -9247,19 +9464,20 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    serializedVersion: 3
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
-    plane1: {fileID: 0}
-    plane2: {fileID: 0}
-    plane3: {fileID: 0}
-    plane4: {fileID: 0}
-    plane5: {fileID: 0}
+    m_Planes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -9325,17 +9543,20 @@ ParticleSystem:
     interiorCollisions: 0
   TriggerModule:
     enabled: 0
-    collisionShape0: {fileID: 0}
-    collisionShape1: {fileID: 0}
-    collisionShape2: {fileID: 0}
-    collisionShape3: {fileID: 0}
-    collisionShape4: {fileID: 0}
-    collisionShape5: {fileID: 0}
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
     exit: 0
+    colliderQueryMode: 0
     radiusScale: 1
+    primitives:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -9857,6 +10078,8 @@ ParticleSystemRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9899,6 +10122,8 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 0
   m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
+  m_FreeformStretching: 0
+  m_RotateWithStretchDirection: 1
   m_VertexStreams: 0001030405
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
@@ -9920,6 +10145,8 @@ ParticleSystemRenderer:
   m_MotionVectors: 2
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9962,6 +10189,8 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 0
   m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
+  m_FreeformStretching: 0
+  m_RotateWithStretchDirection: 1
   m_VertexStreams: 0001030405
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
